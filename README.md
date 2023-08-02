@@ -36,4 +36,6 @@ Installation:
 
 (Neo)Vim [plugin manager](https://github.com/junegunn/vim-plug) for easy installation of [extensions](https://github.com/rockerBOO/awesome-neovim) and [themes](https://github.com/rafi/awesome-vim-colorschemes).
 
+A setup `init.nvim` file can be found ate the repository.
+
 Auxiliary CoC (Conqueror of Completion) [extesions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions): `coc-julia`, `coc-pyright` and `coc-sql`. 
