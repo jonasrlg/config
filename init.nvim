@@ -25,7 +25,7 @@ set ttyfast                 " Speed up scrolling in Vim
 
 call plug#begin()
 	" Plugin Section
-	Plug 'rafi/awesome-vim-colorschemes' " Neovim Color Themes
+	Plug 'morhetz/gruvbox' " Gruvbox Themes
 	Plug 'ryanoasis/vim-devicons' " Developer Icons
 	Plug 'SirVer/ultisnips' "Snippets solutions in Vim
 	Plug 'honza/vim-snippets' "Snippets aux
@@ -36,7 +36,6 @@ call plug#begin()
 	Plug 'neovim/nvim-lspconfig' " Language Server Protocol
 	Plug 'neoclide/coc.nvim', {'branch': 'release'} " Code Completion
 	Plug 'neoclide/coc.nvim'  " Auto Completion
-	Plug 'tc50cal/vim-terminal' " Vim Terminal
 	Plug 'preservim/tagbar' " Tagbar for code navigation
 	Plug 'terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 call plug#end()
