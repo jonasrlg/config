@@ -30,7 +30,11 @@ The installation of the above extesions can be found at: [Syntax Highlighting](h
 
 # Neovim
 
-First, create `.config/nvim/init.vim`.
+First, create the directory where the `init.vim` will be inserted
+
+```
+mkdir .config/neovim
+```
 
 Installation:
 
