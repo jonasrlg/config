@@ -30,16 +30,15 @@ The installation of the above extesions can be found at: [Syntax Highlighting](h
 
 # Neovim
 
-First, create the directory where the `init.vim` will be inserted
-
-```
-mkdir .config/neovim
-```
-
 Installation:
 
 ```sudo dnf install -y neovim python3-neovim```
 
-(Neo)Vim [plugin manager](https://github.com/junegunn/vim-plug) for easy installation of [extensions](https://github.com/rockerBOO/awesome-neovim) and [themes](https://github.com/rafi/awesome-vim-colorschemes).
+Now, create the directory for the configuration file 
+
+```
+mkdir .config/neovim
+```
+Use (Neo)Vim [plugin manager](https://github.com/junegunn/vim-plug) for easy installation of [extensions](https://github.com/rockerBOO/awesome-neovim) and [themes](https://github.com/rafi/awesome-vim-colorschemes).
 
 A setup `init.nvim` file can be found ate the repository.
