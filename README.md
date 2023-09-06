@@ -26,7 +26,7 @@ plugins=(
 ```
 
 The installation of the above extesions can be found at: [Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md),
-[Autosuggestions] (https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md),[PowerLevel10k Theme] (https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+[Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md),[PowerLevel10k Theme] (https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 
 # Neovim
 
