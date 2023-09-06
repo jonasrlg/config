@@ -39,7 +39,7 @@ call plug#begin()
 	Plug 'hrsh7th/cmp-cmdline' " Code Completion aux
 	Plug 'hrsh7th/nvim-cmp' " Code Completion
 	Plug 'SirVer/ultisnips' "Snippets solutions in Vim
-	Plug 'quangnguyen30192/cmp-nvim-ultisnips' # Snippets integration with nvim-cmp
+	Plug 'quangnguyen30192/cmp-nvim-ultisnips' "Snippets integration with nvim-cmp
 	Plug 'preservim/tagbar' " Tagbar for code navigation
 	Plug 'terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 call plug#end()
