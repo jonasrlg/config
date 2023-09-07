@@ -42,7 +42,7 @@ Installation:
 Now, create the directory for the configuration file 
 
 ```
-mkdir .config/neovim
+mkdir .config/nvim
 ```
 Use (Neo)Vim [plugin manager](https://github.com/junegunn/vim-plug) for easy installation of [extensions](https://github.com/rockerBOO/awesome-neovim) and [themes](https://github.com/rafi/awesome-vim-colorschemes).
 
