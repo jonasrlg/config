@@ -14,7 +14,7 @@ $SHELL --version
 
 Then install [Oh-My-ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) for easier plug-in and theme management.
 
-With Oh My Zsh installed, customize your environment by inserting the next line to your `.zshrc`
+With Oh My Zsh installed, customize your environment by inserting the next lines to your `.zshrc`
 
 ```
 ZSH_THEME="powerlevel10k/powerlevel10k"
