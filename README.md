@@ -18,7 +18,7 @@ With Oh My Zsh installed, customize your environment by inserting the next line 
 
 ```
 ZSH_THEME="powerlevel10k/powerlevel10k"
-...
+[...]
 plugins=(
     git
     zsh-autosuggestions
