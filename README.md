@@ -47,3 +47,28 @@ mkdir .config/nvim
 Use (Neo)Vim [plugin manager](https://github.com/junegunn/vim-plug) for easy installation of [extensions](https://github.com/rockerBOO/awesome-neovim) and [themes](https://github.com/rafi/awesome-vim-colorschemes).
 
 A setup `init.nvim` file can be found ate the repository.
+
+# Java (on Solus)
+
+Once openjdk-11 is installed, you'll be able to find all of its components at `/usr/lib64/openjdk-11`. This is the path you should set `JAVA_HOME` to for use with Java software.
+
+To set this path, first create the `profile.d` directory at `etc`:
+
+```
+sudo mkdir /etc/profile.d/
+```
+
+Then create a `java_home.sh` file at `/etc/profile.d/` with
+
+```
+sudo nvim /etc/profile.d/java_home.sh
+```
+and type the next block inside the file:
+
+```
+export JAVA_HOME="path that you found"
+
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
+Finally, log out and log in to apply changes immediately in your current shell.
