@@ -72,3 +72,19 @@ export PATH=$JAVA_HOME/bin:$PATH
 ```
 
 Finally, log out and log in to apply changes immediately in your current shell.
+
+## IntroCS - Segdwick & Wayne (on Solus)
+
+If you want to install this library, note that Solus does not have a native  `/usr/local` directory. To solve this problem, create `/local` with 
+
+```
+sudo mkdir /usr/local/
+```
+
+Next, follow all instructions to install the library.
+
+Finally, export the library path with the following command (inside your `.zshrc`)
+
+```
+export PATH=/usr/local/bin/:$PATH
+```
